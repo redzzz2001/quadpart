@@ -10,6 +10,6 @@ Clique **Criar sala**. Compartilhe o código ou link. Até três amigos entram e
 
 ## Dependências e limitações
 
-O cliente PeerJS é carregado por CDN e usa o servidor público de sinalização PeerJS para descobrir peers. O tráfego de jogo ocorre por WebRTC entre dispositivos quando possível. Redes com NAT restritivo podem impedir conexão sem servidor TURN; o projeto não configura TURN próprio. É necessário internet para sinalização. Não há reconexão/migração automática de host; ao fechar o navegador do host, a partida termina. O host tem autoridade sobre o estado e pode adulterá-lo; não é anti-cheat. A disponibilidade do serviço público de sinalização não é garantida.
+O cliente PeerJS 1.5.5 é servido localmente em `public/peerjs.min.js` e usa o servidor público de sinalização PeerJS para descobrir peers. O tráfego de jogo ocorre por WebRTC entre dispositivos quando possível. Redes com NAT restritivo podem impedir conexão sem servidor TURN; o projeto não configura TURN próprio. É necessário internet para sinalização. Não há reconexão/migração automática de host; ao fechar o navegador do host, a partida termina. O host tem autoridade sobre o estado e pode adulterá-lo; não é anti-cheat. A disponibilidade do serviço público de sinalização não é garantida.
 
 Minijogos: Snake Arena, Batalha de Arena, Corrida Turbo, Jogo da Velha.
